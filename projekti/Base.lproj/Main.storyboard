@@ -151,4 +151,184 @@
                                     <outlet property="dataSource" destination="6vC-eO-a1z" id="IZl-fN-HMN"/>
                                     <outlet property="delegate" destination="6vC-eO-a1z" id="juV-F3-zwr"/>
                                 </connections>
-                         
+                         </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="j4z-rN-egj"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Vendet e preferuara" id="stZ-E5-AWS">
+                        <barButtonItem key="leftBarButtonItem" title="Fshij " id="4Xk-oO-8fg">
+                            <connections>
+                                <action selector="deleteAction:" destination="6vC-eO-a1z" id="gMi-ty-gXs"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="UHH-jm-iRl">
+                            <connections>
+                                <action selector="addName:" destination="6vC-eO-a1z" id="pof-Tm-BEF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="9ty-I5-Z2P" id="cYf-8i-DOj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jcl-pB-vv7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3686.9565217391305" y="-677.44565217391312"/>
+        </scene>
+        <!--Countries Table View Controller-->
+        <scene sceneID="Tlr-k3-SPZ">
+            <objects>
+                <tableViewController id="mKQ-Sf-Jtj" customClass="CountriesTableViewController" customModule="projekti" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="300" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7sH-bh-O1V">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="sectionIndexBackgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CountryCell" rowHeight="279" id="loJ-oA-y6r" customClass="CountryTableViewCell" customModule="projekti" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="279"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="loJ-oA-y6r" id="QHN-RX-sbb">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="279"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pv2-9s-qTy">
+                                            <rect key="frame" x="7" y="40" width="381" height="256"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="221" translatesAutoresizingMaskIntoConstraints="NO" id="DGp-xC-T61">
+                                            <rect key="frame" x="0.0" y="11" width="381" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="countryImageView" destination="Pv2-9s-qTy" id="dkz-Fs-R3B"/>
+                                    <outlet property="countryTitleLabel" destination="DGp-xC-T61" id="dZl-BR-JLf"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="mKQ-Sf-Jtj" id="fH8-Yl-MbY"/>
+                            <outlet property="delegate" destination="mKQ-Sf-Jtj" id="2Dj-kY-f1A"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Erb-Wl-QhN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2450.7246376811595" y="138.58695652173915"/>
+        </scene>
+        <!--Second Home View Controller-->
+        <scene sceneID="Yi1-HT-VLm">
+            <objects>
+                <viewController id="tAZ-Ar-n7c" customClass="SecondHomeViewController" customModule="projekti" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WnX-V4-eoY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytO-ie-IOk">
+                                <rect key="frame" x="0.0" y="358" width="414" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <state key="normal" title="Ushqime per tu provuar" backgroundImage="Fli">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="shikoUshqimet:" destination="tAZ-Ar-n7c" eventType="touchUpInside" id="MVA-hD-DeD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2lm-JK-7tl">
+                                <rect key="frame" x="0.0" y="50" width="414" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="VENDET" backgroundImage="Bjeshket">
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="shikoVendet:" destination="tAZ-Ar-n7c" eventType="touchUpInside" id="Y95-37-Zda"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhf-Nu-GmB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Vendet e Preferuara"/>
+                                <connections>
+                                    <action selector="ruajVendin:" destination="tAZ-Ar-n7c" eventType="touchUpInside" id="aD7-Nq-bsi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="abF-MK-VR8"/>
+                    </view>
+                    <connections>
+                        <segue destination="mKQ-Sf-Jtj" kind="showDetail" identifier="Vendet" id="7eU-en-E05"/>
+                        <segue destination="3r3-hL-08T" kind="showDetail" identifier="Ushqimet" id="4Zt-8j-IIh"/>
+                        <segue destination="3GI-IS-AJx" kind="showDetail" identifier="vendiRuaj" id="IS3-2B-FxR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aSP-uS-QNb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1302.8985507246377" y="138.58695652173915"/>
+        </scene>
+        <!--Ushqime View Controller-->
+        <scene sceneID="eCS-d8-Jcs">
+            <objects>
+                <tableViewController id="3r3-hL-08T" customClass="UshqimeViewController" customModule="projekti" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="400" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="76u-VC-M9c">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Ushqim" rowHeight="286" id="xhF-pL-VXN" customClass="UshqimTableViewCell" customModule="projekti" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="286"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xhF-pL-VXN" id="Y2o-EY-mKR">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="286"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YLq-mf-JRl">
+                                            <rect key="frame" x="20" y="69" width="361" height="328"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZR-ii-UTQ">
+                                            <rect key="frame" x="118" y="22" width="156" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="FotoUshqim" destination="YLq-mf-JRl" id="Vp3-IE-Dq7"/>
+                                    <outlet property="PershkrimUshqim" destination="GZR-ii-UTQ" id="hs2-xb-H3h"/>
+                                    <outlet property="pershkrimUshqim" destination="GZR-ii-UTQ" id="HVQ-8o-B4M"/>
+                                    <outletCollection property="fotoUshqim" destination="YLq-mf-JRl" collectionClass="NSMutableArray" id="TOR-Jq-RbI"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="3r3-hL-08T" id="URL-5P-AJt"/>
+                            <outlet property="delegate" destination="3r3-hL-08T" id="Igi-MQ-YAG"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BZQ-yC-deU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1302.8985507246377" y="941.57608695652186"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bjeshket" width="512" height="320"/>
+        <image name="Fli" width="440" height="319"/>
+        <image name="Mirusha" width="1024" height="576"/>
+    </resources>
+</document>
