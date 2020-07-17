@@ -34,7 +34,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="klikoBabooo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QVd-eK-w7K"/>
+                                    <action selector="kliko:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QVd-eK-w7K"/>
                                 </connections>
                             </button>
                         </subviews>
