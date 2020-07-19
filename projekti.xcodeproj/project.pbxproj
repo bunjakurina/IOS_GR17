@@ -9,10 +9,9 @@
 /* Begin PBXBuildFile section */
 		4F6785FD24B9BA900050DC9E /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6785FC24B9BA900050DC9E /* CountriesTableViewController.swift */; };
 		4F6785FF24BA08CF0050DC9E /* UshqimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6785FE24BA08CF0050DC9E /* UshqimeTableViewController.swift */; };
-		4FBA3D5224BCC8B100758EA2 /* PersonData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA3D5024BCC8B000758EA2 /* PersonData.xcdatamodeld */; };
 		4FBA3D5624BCCD6000758EA2 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA3D5524BCCD5F00758EA2 /* ViewController2.swift */; };
-		4FBA3D5924BCCDC700758EA2 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA3D5724BCCDC600758EA2 /* Person+CoreDataClass.swift */; };
-		4FBA3D5A24BCCDC700758EA2 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA3D5824BCCDC600758EA2 /* Person+CoreDataProperties.swift */; };
+		4FBA3D5924BCCDC700758EA2 /* Vendet+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA3D5724BCCDC600758EA2 /* Vendet+CoreDataClass.swift */; };
+		4FBA3D5A24BCCDC700758EA2 /* Vendet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA3D5824BCCDC600758EA2 /* Vendet+CoreDataProperties.swift */; };
 		4FC91A5024B72FAA00681186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC91A4F24B72FAA00681186 /* AppDelegate.swift */; };
 		4FC91A5224B72FAA00681186 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC91A5124B72FAA00681186 /* SceneDelegate.swift */; };
 		4FC91A5424B72FAA00681186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC91A5324B72FAA00681186 /* ViewController.swift */; };
@@ -20,15 +19,15 @@
 		4FC91A5924B72FC100681186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC91A5824B72FC100681186 /* Assets.xcassets */; };
 		4FC91A5C24B72FC100681186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC91A5A24B72FC100681186 /* LaunchScreen.storyboard */; };
 		4FEAD8A824B75A71003B6254 /* SecondHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEAD8A724B75A71003B6254 /* SecondHomeViewController.swift */; };
+		4FEE4EEA24C4FC36004E7C19 /* Vendet.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE4EE924C4FC36004E7C19 /* Vendet.xcdatamodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F6785FC24B9BA900050DC9E /* CountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
 		4F6785FE24BA08CF0050DC9E /* UshqimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UshqimeTableViewController.swift; sourceTree = "<group>"; };
-		4FBA3D5124BCC8B000758EA2 /* PersonData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonData.xcdatamodel; sourceTree = "<group>"; };
 		4FBA3D5524BCCD5F00758EA2 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		4FBA3D5724BCCDC600758EA2 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
-		4FBA3D5824BCCDC600758EA2 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4FBA3D5724BCCDC600758EA2 /* Vendet+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vendet+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4FBA3D5824BCCDC600758EA2 /* Vendet+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vendet+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4FC91A4C24B72FAA00681186 /* Visit Kosova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Visit Kosova.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC91A4F24B72FAA00681186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FC91A5124B72FAA00681186 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		4FC91A5B24B72FC100681186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FC91A5D24B72FC100681186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FEAD8A724B75A71003B6254 /* SecondHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondHomeViewController.swift; sourceTree = "<group>"; };
+		4FEE4EE924C4FC36004E7C19 /* Vendet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vendet.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,9 @@
 		4FC91A4324B72FA900681186 = {
 			isa = PBXGroup;
 			children = (
-				4FBA3D5724BCCDC600758EA2 /* Person+CoreDataClass.swift */,
-				4FBA3D5824BCCDC600758EA2 /* Person+CoreDataProperties.swift */,
+				4FEE4EE924C4FC36004E7C19 /* Vendet.xcdatamodel */,
+				4FBA3D5724BCCDC600758EA2 /* Vendet+CoreDataClass.swift */,
+				4FBA3D5824BCCDC600758EA2 /* Vendet+CoreDataProperties.swift */,
 				4FC91A4E24B72FAA00681186 /* projekti */,
 				4FC91A4D24B72FAA00681186 /* Products */,
 			);
@@ -72,7 +73,6 @@
 		4FC91A4E24B72FAA00681186 /* projekti */ = {
 			isa = PBXGroup;
 			children = (
-				4FBA3D5024BCC8B000758EA2 /* PersonData.xcdatamodeld */,
 				4FC91A4F24B72FAA00681186 /* AppDelegate.swift */,
 				4FC91A5124B72FAA00681186 /* SceneDelegate.swift */,
 				4FEAD8A724B75A71003B6254 /* SecondHomeViewController.swift */,
@@ -159,16 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FEE4EEA24C4FC36004E7C19 /* Vendet.xcdatamodel in Sources */,
 				4FC91A5424B72FAA00681186 /* ViewController.swift in Sources */,
-				4FBA3D5224BCC8B100758EA2 /* PersonData.xcdatamodeld in Sources */,
-				4FBA3D5924BCCDC700758EA2 /* Person+CoreDataClass.swift in Sources */,
+				4FBA3D5924BCCDC700758EA2 /* Vendet+CoreDataClass.swift in Sources */,
 				4FEAD8A824B75A71003B6254 /* SecondHomeViewController.swift in Sources */,
 				4FC91A5024B72FAA00681186 /* AppDelegate.swift in Sources */,
 				4F6785FD24B9BA900050DC9E /* CountriesTableViewController.swift in Sources */,
 				4FC91A5224B72FAA00681186 /* SceneDelegate.swift in Sources */,
 				4FBA3D5624BCCD6000758EA2 /* ViewController2.swift in Sources */,
 				4F6785FF24BA08CF0050DC9E /* UshqimeTableViewController.swift in Sources */,
-				4FBA3D5A24BCCDC700758EA2 /* Person+CoreDataProperties.swift in Sources */,
+				4FBA3D5A24BCCDC700758EA2 /* Vendet+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,17 +366,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4FBA3D5024BCC8B000758EA2 /* PersonData.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4FBA3D5124BCC8B000758EA2 /* PersonData.xcdatamodel */,
-			);
-			currentVersion = 4FBA3D5124BCC8B000758EA2 /* PersonData.xcdatamodel */;
-			name = PersonData.xcdatamodeld;
-			path = "../../alokupadhyay-repos-96e30ab4d7bb-2/PersonData/PersonData/PersonData.xcdatamodeld";
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
+		
 /* End XCVersionGroup section */
 	};
 	rootObject = 4FC91A4424B72FA900681186 /* Project object */;
